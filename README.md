@@ -1,4 +1,4 @@
-# ORHF
+# OR+HF
 Script simple en langage Python au moyen duquel appeler dans le logiciel OpenRefine <https://openrefine.org> par API un modèle de langue déployé sur Hugging Face <https://huggingface.co>. Adaptation d’un script original de Michael Markert <https://github.com/MichaelMarkert/SODa/>.
 
 ## Consignes :

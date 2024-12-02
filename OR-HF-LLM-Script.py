@@ -1,9 +1,9 @@
 import json
 import urllib2
 
-url = 'https://api-inference.huggingface.co/models/{model_lab}/{model_nom}/v1/chat/completions'
+url = 'https://api-inference.huggingface.co/models/{model_lab}/{model_name}/v1/chat/completions'
 api_key = 'hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-prompt = u'''Generate a basic JSON containing only the following information on the person mentioned: dateofbirth, placeofbirth, dateofdeath, placeofdeath. Do not provide further information.'''
+basisprompt = u'''Generate a basic JSON containing only the following information on the person mentioned: dateofbirth, placeofbirth, dateofdeath, placeofdeath. Do not provide further information.'''
 
 headers = {
     'Authorization': 'Bearer ' + api_key,
@@ -14,7 +14,7 @@ data = {
   'messages': [ 
       {
          'role': 'user',
-         'content': prompt + value
+         'content': basisprompt + value
       }
   ],
   'max_tokens': 2048,

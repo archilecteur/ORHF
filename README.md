@@ -1,5 +1,5 @@
 # OR+HF
-Script simple en langage Python au moyen duquel appeler dans le logiciel OpenRefine <https://openrefine.org> par API un modèle de langue déployé sur Hugging Face <https://huggingface.co>. Adaptation d’un script original de Michael Markert <https://github.com/MichaelMarkert/SODa/>.
+Un script Python permettant d’appeler dans le logiciel OpenRefine <https://openrefine.org> via API un modèle de langue (LLM) déployé sur Hugging Face <https://huggingface.co>. Adaptation d’un script original de Michael Markert <https://github.com/MichaelMarkert/SODa/>.
 
 ## Directives :
 - Coller ce script dans la fenêtre ouverte en suivant > Edit column > Add column based on this column (OpenRefine).

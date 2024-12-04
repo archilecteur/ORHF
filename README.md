@@ -1,4 +1,4 @@
-# OR+HF
+# HuggingRefine
 
 Un script Python permettant d’appeler dans le logiciel [OpenRefine](https://openrefine.org) via API un modèle de langage (LLM) déployé sur [Hugging Face](https://huggingface.co). Adaptation d’un script original de [Michael Markert](https://github.com/MichaelMarkert/SODa/).
 
